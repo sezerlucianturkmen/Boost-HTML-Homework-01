@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+ 
+    <div class="divmain">
+        <div class="form-element">
+            <label class="labeltitle"> Name</label>
+            <input type="text" name="Name" id="txt_id" > 
+        </div>
+        <div class="form-element">
+            <label class="labeltitle"> Surname</label>
+            <input type="text" name="Surname" id="txt_id" > 
+        </div>
+        <div class="form-element">
+            <label class="labeltitle"> E-mail</label>
+            <input type="text" name="E-mail" id="txt_id" > 
+        </div>
+        <div class="form-element">
+            <label class="labeltitle"> Password</label>
+            <input type="text" name="Password" id="txt_id" > 
+        </div>
+        <div class="form-element">
+            <label class="labeltitle"> Age</label>
+            <input type="text" name="Age" id="txt_id" > 
+        </div>
+        <div class="divcheck">
+            <label class="labeltitle" for="Date">Date</label>
+        </div>
+        <div class="divchecksub">
+            <input type="date" id="Date" name="trip-start"
+             value="yyyy-mm-dd"
+             min="1930-01-01" max="2022-09-09">
+        </div>
+        <div class="divcheck">
+              <label class="labeltitle"> Gender</label>
+        </div>           
+        <div class="divchecksub">          
+             <input type="checkbox" id="Male" name="source" value="Male">
+             <label for="Male">Male</label>
+             <input type="checkbox" id="Female" name="source" value="Female">
+             <label for="Female">Female</label>
+             <input type="checkbox" id="Other" name="source" value="Other">
+             <label for="Other">Other</label>
+        </div>
+        <div class="divcheck">
+            <label class="labeltitle"> Hobbies</label>
+      </div>           
+      <div class="divchecksub">          
+           <input type="checkbox" id="Art" name="source" value="Art">
+           <label for="Art">Art</label>
+           <input type="checkbox" id="Music" name="source" value="Music">
+           <label for="Music">Music</label>
+           <input type="checkbox" id="Technology" name="source" value="Technology">
+           <label for="Technology">Technology</label>
+      </div>
+      <div class="divcheck">
+        <label class="labeltitle"> City</label>
+     </div>
+      <div class="divchecksub">
+        <select id="City" name="City">
+            <option>select a city</option>
+            <option value="ANK">Ankara</option>
+            <option value="IST">Istanbul</option>          
+        </select>
+      </div>
+      <div class="divcheck">
+        <textarea name="message" rows="5" cols="30" placeholder="Message"></textarea>
+      </div> 
+        <div class="divbtn">           
+            <button > Send</button>            
+            <button > Delete</button>
+        </div>
+    </div>
+    
+</body>
+</html>
